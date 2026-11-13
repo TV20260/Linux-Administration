@@ -19,7 +19,7 @@ else
     DISK_STATUS="OK"
 fi
 
-TEMP_FILE="index.html"
+TEMP_FILE="/var/www/html/week3/index.html"
 GITHUB_URL="https://github.com/TV20260/Linux-Administration"
 
 cat > "$TEMP_FILE" <<EOF
