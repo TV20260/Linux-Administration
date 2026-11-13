@@ -69,17 +69,17 @@ body {
             <td>$DISK_USAGE</td>
         </tr>
         <tr>
+            <th>Disk status:</th>
+            <td>$DISK_STATUS</td>
+        </tr>
+        <tr>
             <th>Total memory:</th>
             <td>$MEM_TOTAL MiB</td>
         </tr>
         <tr>
             <th>Memory available:</th>
             <td>$MEM_AVAILABLE MiB</td>
-        </tr>
-        <tr>
-            <th>Disk status:</th>
-            <td>$DISK_STATUS</td>
-        </tr>
+        </tr>        
     </table>
     <h2>Git-repo</h2>
     <a href=$GITHUB_URL>Link to git-repo</a>
